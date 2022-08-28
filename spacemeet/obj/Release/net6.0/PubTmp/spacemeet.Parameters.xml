@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="spacehub-appservice" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Mrs\ Salami\ Modupe\ PC\\bootcamp-project\\Backend\\spacemeet\\obj\\Release\\net6\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="spacemeet.Data.spacemeetContext" description="" value="Data Source=tcp:spacehub-server.database.windows.net,1433;Initial Catalog=spacehub-db;User Id=spacehub-admin@spacehub-server;Password=pwcgroup2#" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\Mrs\ Salami\ Modupe\ PC\\bootcamp-project\\Backend\\spacemeet\\obj\\Release\\net6\.0\\PubTmp\\EFSQLScripts\\spacemeet\.Data\.spacemeetContext\.sql$" />
+  </parameter>
+</parameters>

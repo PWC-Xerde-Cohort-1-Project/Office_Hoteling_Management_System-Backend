@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA5V8c2OkcoEeq12NyCYxuiQAAAAACAAAAAAAQZgAAAAEAACAAAACeJMKDnWbNlNvSZ4R3YhgOW8kgCVXJzatvRFUVBOL5aAAAAAAOgAAAAAIAACAAAADLTTyGngyd5OEhZ1fZB1SP/PP7rkGMFFCZJUXhrnUDG4AAAAA/URdGhxbNOvD2dfN1QX+Fmbcn4ctZ+a+MfkrM7iUzp9HKrbRbDy0rAFHflJQ8iQ+AumsXUZYPOAr3RTgHiMJcCSrIdDZnMC3bvMp16CxEy9ZZdnQJPFjrWpNT+UYOIhI1eUD/uyYazDa2v/YRT4TcTTuEmQGRV4837ZwXp7NrL0AAAABWJnznj2j+B93+jzQyuPqHR7APb8t2pUm/x0wjWFX+SdfbezVm9hL2JVUR3WJf0xiUgI3qVEq4lBLPcLOHZGNf</EncryptedPassword>
+    <History>True|2022-08-26T03:40:04.8942053Z;True|2022-08-26T04:16:44.8335689+01:00;True|2022-08-25T09:08:17.2522094+01:00;True|2022-08-24T16:56:56.3066519+01:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="SpacehubDB">
+      <Value>Data Source=tcp:spacehub-server.database.windows.net,1433%3bInitial Catalog=spacehub-db%3bUser Id=spacehub-admin%40spacehub-server%3bPassword=pwcgroup2#</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
